@@ -1,0 +1,35 @@
+<html>
+<script>
+function helikoptr(pochodzenie,rok_produkcji,zaloga,silnik,typ)
+{
+this.pochodzenie=pochodzenie;
+this.rok_produkcji=rok_produkcji;    
+this.zaloga=zaloga;
+this.silnik=silnik;
+this.typ=typ;
+}
+Boeing_AH_64_Apache=new helikoptr("USA",1976,2,2,"śmigłowiec szturmowy");
+document.write("Boeing_AH_64_Apache paramatry:"+"<br> -"
++"Kraj pochodzenia: "+Boeing_AH_64_Apache.pochodzenie+"<br> -"
++"Rok producji: "+Boeing_AH_64_Apache.rok_produkcji+"<br> -"
++"Załoga: "+Boeing_AH_64_Apache.zaloga+"<br> -"
++"Liczba silników: "+Boeing_AH_64_Apache.silnik+"<br> -"
++"Typ: "+Boeing_AH_64_Apache.typ+"<br> "+"<br>"+"<br>");
+
+Mi_24 =new helikoptr("ZSRR",1970-1989,3,2,"latający czołg");
+document.write("Mi-24 paramatry:"+"<br> -"
++"Kraj pochodzenia: "+Mi_24.pochodzenie+"<br> -"
++"Rok producji: "+Mi_24.rok_produkcji+"<br> -"
++"Załoga: "+Mi_24.zaloga+"<br> -"
++"Liczba silników: "+Mi_24.silnik+"<br> -"
++"Typ: "+Mi_24.typ+"<br> "+"<br>"+"<br>");
+
+Boeing_CH46_Sea_Knight=new helikoptr("USA",1962-1971,2,2,"śmigłowiec transportowy");
+document.write("Boeing CH-46 Sea Knight paramatry:"+"<br> -"
++"Kraj pochodzenia: "+Boeing_CH46_Sea_Knight.pochodzenie+"<br> -"
++"Rok producji: "+Boeing_CH46_Sea_Knight.rok_produkcji+"<br> -"
++"Załoga: "+Boeing_CH46_Sea_Knight.zaloga+"<br> -"
++"Liczba silników: "+Boeing_CH46_Sea_Knight.silnik+"<br> -"
++"Typ: "+Boeing_CH46_Sea_Knight.typ+"<br> "+"<br>"+"<br>");
+</script>
+</html>
